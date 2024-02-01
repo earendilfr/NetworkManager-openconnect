@@ -1202,6 +1202,7 @@ static int get_config (auth_ui_data *ui_data,
 	char *token_mode;
 	char *token_secret;
 	char *protocol;
+	char *useragent;
 
 	hostname = g_hash_table_lookup (options, NM_OPENCONNECT_KEY_GATEWAY);
 	if (!hostname) {
